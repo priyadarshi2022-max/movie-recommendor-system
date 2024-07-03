@@ -1,16 +1,14 @@
-# movie-recommendor-system
+# Movie Recommendor System
 
-## Collaborative Filtering Recommendator System
+## Project Description:
+This project implements a movie recommendation engine using a combination of collaborative filtering and content-based filtering techniques. The goal is to provide users with accurate and diverse movie recommendations based on their preferences and viewing history.
 
-### PROJECT FLOW
-Data Collection
-Preprocessing
-Modelling
+## Installation:
+To use this project in action, simply download it on your local machine and run on jupyter.
 
-####  Movie Recommendor System
-1. Collect data in csv format file from kaggle.com
-2. Create a separate folder to store all your datasets.
-3. We have to build recommendor system so ultimately we need tags
+## Technical Details:
+* **Data**: Utilizes the "tmdb_5000_movies.csv" file from Kaggle
+* **Algorithms**: Uses text vectorization to convert labels into numerical values(This project is based on the concept of text vectorization whose task is to convert text data into numerical vectors so that the algorithm can use it to perform the task.)
+* **Libraries**: numpy, pandas, nltk
 
-### USING TEXT VECTORIZATION 
-This project is based on the concept of text vectorization whose task is to convert text data into numerical vectors so that the algorithm can use it to perform the task.
+
